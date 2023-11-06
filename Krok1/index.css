@@ -1,0 +1,24 @@
+.canvas {
+    background: aquamarine;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+* {
+    margin: 0;
+    padding: 0;
+}
+.Korok-Body{
+    width: 70vmin;
+    height: 70vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    background: aliceblue;
+    clip-path: polygon(21% 1%, 29% 15%, 40% 7%, 34% 20%, 38% 31%, 55% 29%, 70% 13%, 69% 28%, 73% 45%, 83% 53%, 100% 73%, 80% 63%, 80% 84%, 77% 91%, 71% 99%, 68% 98%, 59% 86%, 40% 86%, 34% 98%, 30% 98%, 18% 90%, 15% 78%, 18% 59%, 0 69%, 22% 44%);
+}
